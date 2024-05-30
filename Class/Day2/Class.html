@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="/login">
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password"><br><br>
+
+    <label for="gender">Gender</label>
+    <br><br>
+    <input type="radio" name="gender" value="male">
+    <label for="male">Male</label>
+    <br><br>
+    <input type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <br><br>
+    <label for="pets">Pets:</label>
+    <br><br>
+    <select id="Pets">
+        <option value="dogs">Dogs</option>
+        <option value="crocodile">Crocodile</option>
+        <option value="cats" selected>Cats</option>
+    </select>
+    <br><br>
+    <input type="submit">
+
+</form>
+</body>
+</html>

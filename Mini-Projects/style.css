@@ -65,15 +65,39 @@ body {
 .button {
     background: #EBECF0;
     color: #515357;
+    height: 40px;
+    width: 230px;
 }
 .paddingTopBottom5px {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.MarginTop20px {
+    margin-top: 20px;
+}
 .asteriskRed {
     color: #FF794F;
 }
-.
+.inputMenu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.inputMenuSmall {
+    width: 30%;
+}
+.inputMenuLarger {
+    width: 70%;
+}
+.sidePadding5px {
+    padding-left: 5px;
+}
+.sidePadding10px {
+    padding-left: 10px;
+}
+.inputForm {
+    height: 40px;
+}
 /*------------ Header CSS ------------*/
 #image1 {
     width: 145px;
@@ -82,6 +106,54 @@ body {
 #submitTitle {
     padding: 40px 0;
 }
+
+.upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EBECF0;
+    color: #515357;
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #515357;
+    color: #EBECF0;
+    height: 40px;
+    width: 230px;
+}
+
+#file-upload {
+    display: none;
+}
+
+.checkBox {
+    display: flex;
+}
+
+.checkBoxItem {
+    width: 33%;
+    margin: 17.5px 0px;
+}
+
 
  /*------------ font ------------*/
  .lato-thin {

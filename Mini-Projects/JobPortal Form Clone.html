@@ -28,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section id="submitYourApplication" class="outerBox">
+    <section id="submitYourApplication" class="outerBox bgDarkGray">
         <div class="innerBox padding20px">
             <div id="submitTitle">
                 <h2 class="fontXL fontDarkGray fontWeight600">SUBMIT YOUR APPLICATION</h2>
@@ -37,15 +37,47 @@
     </section>
     <section id="SelectionMenu1" class="outerBox bgDarkGray">
         <div class="innerBox">
-            <div class="inputMenu">
-                <div class="inputMenuSmall">
-                    <p>1</p>
+            <div class="inputMenu paddingTopBottom5px">
+                <div class="inputMenuSmall fontXL">
+                    <p>Resume/CV <span class="asteriskRed"><sup>✱</sup></span></p>
                 </div>
                 <div class="inputMenuLarger">
-                    <p>123</p>
+                    <div class="upload-container">
+                        <label for="file-upload" class="custom-file-upload">
+                            <i class="fa-solid fa-paperclip"><span class="sidePadding10px">Upload CV/ Resume</span></i>
+                        </label>
+                        <input id="file-upload" type="file"/>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="SelectionMenu2" class="outerBox bgDarkGray">
+        <div class="innerBox MarginTop20px">
+            <div class="inputMenu paddingTopBottom5px">
+                <div class="inputMenuSmall fontXL">
+                    <label for="fullName">Full Name<span class="asteriskRed"><sup>✱</sup></span></label><br>
+                </div>
+                <div class="inputMenuLarger">
+                    <input type="fullName" id="fullName" name="fullName" class="inputForm">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="SelectionMenu3" class="outerBox bgDarkGray">
+        <div class="innerBox MarginTop20px">
+            <div class="inputMenu paddingTopBottom5px">
+                <div class="inputMenuSmall fontXL">
+                    <label for="fullName">Pronouns</label><br>
+                </div>
+                <div class="inputMenuLarger checkBox">
+                    <div class="checkBoxItem">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/dc10f11ad9.js" crossorigin="anonymous"></script>
 </body>
 </html>

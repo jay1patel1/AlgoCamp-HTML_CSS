@@ -152,6 +152,12 @@ body {
 .checkBoxItem {
     width: 33%;
     margin: 17.5px 0px;
+    display: flex;
+}
+.check {
+    margin: 2px;
+    padding: 2px;
+    width: 40px;
 }
 
 

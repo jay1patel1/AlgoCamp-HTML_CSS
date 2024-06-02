@@ -83,8 +83,17 @@ body {
     width: 100%;
     align-items: center;
 }
+.inputMenu2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 .inputMenuSmall {
     width: 30%;
+}
+.inputMenuTop {
+    width: 100%;
 }
 .inputMenuLarger {
     width: 70%;
@@ -152,6 +161,11 @@ body {
 .checkBoxItem {
     width: 33%;
     margin: 17.5px 0px;
+    display: flex;
+}
+.checkBoxItem2 {
+    width: 33%;
+    margin: 5px 0px;
     display: flex;
 }
 .check {

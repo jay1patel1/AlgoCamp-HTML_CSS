@@ -103,7 +103,7 @@ body {
     width: 145px;
     padding: 17.5px 0 0 0;
 }
-#submitTitle {
+.title {
     padding: 40px 0;
 }
 

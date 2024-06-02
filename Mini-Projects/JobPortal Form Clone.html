@@ -7,28 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Palantir Technologies - Software Engineer - Frontend Developer Productivity</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="headerBox" class="outerBox">
             <div id="HeaderImageDiv" class="innerBox">
-                <img id="HeaderLogo" src="https://lever-client-logos.s3.us-west-2.amazonaws.com/b8300af6-ed1c-4d0b-8956-cee7839555b9-1599675095718.png">
+                <div id="image1">
+                    <img id="HeaderLogo" src="https://lever-client-logos.s3.us-west-2.amazonaws.com/b8300af6-ed1c-4d0b-8956-cee7839555b9-1599675095718.png">
+                </div>
             </div>
     </header>
-    <section id="jobDescription" class="innerBox">
-        <div id="jobTitle" >
-            <h1>Software Engineer - Frontend Developer Productivity</h1>
-            <p>Seattle, WA</p>
-            <p>Dev /Full-Time /Hybrid</p>
+    <section id="jobDescription" class="outerBox">
+        <div id="jobTitle" class="innerBox padding20px">
+            <h2 class="fontDarkGray fontXXXL bottomPadding20px">Software Engineer - Frontend Developer Productivity</h2>
+            <div class="topPadding20px bottomPadding20px">
+                <p class="fontLightGray fontL bottomPadding10px fontWeight600">Seattle, WA</p>
+                <p class="fontLightGray fontL fontWeight600">Dev /Full-Time /Hybrid</p>
+            </div>
         </div>
     </section>
-    <section id="submitYourApplication">
-        <div>
-            <h2>SUBMIT YOUR APPLICATION</h2>
-        </div>
-        <div>
-            <h3>Resume/CV<span>*</span></h3>
-            <label for="files" class="btn">Attach Resume / CV</label>
-            <input id="files" style="visibility:hidden;" type="file">
+    <section id="submitYourApplication" class="outerBox">
+        <div class="innerBox padding20px">
+            <div id="submitTitle">
+                <h2 class="fontXL fontDarkGray">SUBMIT YOUR APPLICATION</h2>
+            </div>
+            <div>
+                <h3>Resume/CV<span>*</span></h3>
+                <label for="files" class="btn">Attach Resume / CV</label>
+                <input id="files" style="visibility:hidden;" type="file">
+            </div>
         </div>
     </section>
 </body>

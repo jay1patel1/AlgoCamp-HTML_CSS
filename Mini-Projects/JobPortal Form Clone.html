@@ -9,19 +9,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="outerBox" id="topHeader">
-            <div id="HeaderImageDiv">
+    <header id="headerBox" class="outerBox">
+            <div id="HeaderImageDiv" class="innerBox">
                 <img id="HeaderLogo" src="https://lever-client-logos.s3.us-west-2.amazonaws.com/b8300af6-ed1c-4d0b-8956-cee7839555b9-1599675095718.png">
             </div>
-        </div>
     </header>
-    <div id="Content">
-        <section id="jobDescription">
-            <div class="outerBox" id="jobDescriptionBox">
-
-            </div>
-        </section>
-    </div>
+    <section id="jobDescription" class="innerBox">
+        <div id="jobTitle" >
+            <h1>Software Engineer - Frontend Developer Productivity</h1>
+            <p>Seattle, WA</p>
+            <p>Dev /Full-Time /Hybrid</p>
+        </div>
+    </section>
+    <section id="submitYourApplication">
+        <div>
+            <h2>SUBMIT YOUR APPLICATION</h2>
+        </div>
+        <div>
+            <h3>Resume/CV<span>*</span></h3>
+            <label for="files" class="btn">Attach Resume / CV</label>
+            <input id="files" style="visibility:hidden;" type="file">
+        </div>
+    </section>
 </body>
 </html>

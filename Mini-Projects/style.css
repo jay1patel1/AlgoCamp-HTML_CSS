@@ -60,8 +60,20 @@ body {
     font-weight: 600;
 }
 .bgDarkGray {
-    background: #515357;
+    background: #F9F9F9;
 }
+.button {
+    background: #EBECF0;
+    color: #515357;
+}
+.paddingTopBottom5px {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.asteriskRed {
+    color: #FF794F;
+}
+.
 /*------------ Header CSS ------------*/
 #image1 {
     width: 145px;

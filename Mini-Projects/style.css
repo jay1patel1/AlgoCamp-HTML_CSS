@@ -26,6 +26,9 @@ body {
 .padding20px {
     padding: 20px 0;
 }
+.padding40px {
+    padding: 30px 0;
+}
 .bottomPadding20px {
     padding-bottom: 20px;
 }
@@ -104,10 +107,33 @@ body {
 .sidePadding10px {
     padding-left: 10px;
 }
-.inputForm {
-    height: 40px;
+.sidePadding30px {
+    padding-left: 30px;
 }
-/*------------ Header CSS ------------*/
+.inputForm {
+    height: 50px;
+}
+.rightPadding {
+    padding-right: 20px;
+}
+.flex {
+    display: flex;
+}
+.footer {
+}
+.footerin{
+    display: flex;
+    text-align: center;
+}
+.footerTextLink {
+    color: blue;
+    text-decoration: underline;
+}
+footer {
+    height: 300px;
+    background: rgb(237,238,241);
+}
+/*------------ Specific CSS ------------*/
 #image1 {
     width: 145px;
     padding: 17.5px 0 0 0;
@@ -178,7 +204,46 @@ body {
     width: 100%;
     align-items: start;
 }
+.radioMenu {
+    display: flex;
+    flex-direction: column;
+}
+.radio {
+    margin: 2px;
+    padding: 2px;
+    width: 40px;
+}
+.form {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+.form2 {
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+}
+.listBox {
+    display: flex;
+    gap: 10px 20px;
+}
+.listBox li {
+    width: 33%;
+    margin: 10px 10px;
+}
 
+#subbmitButton {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
 
  /*------------ font ------------*/
  .lato-thin {

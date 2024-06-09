@@ -2,24 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AlgoCamp - Registration Form</title>
+    <style>
+        .paddingTopBottom5px {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        <h1> This is a student Registration Form Project using Simply HTML.</h1>
+        <hr style="color: #515357">
     </header>
     <main>
-        <form action="" method="post">
+        <div style="padding-top: 20px">
+            <h2>Student Registration Form</h2>
+            <p>Please fill out the form below to register.</p>
+        </div>
+
+        <hr style="margin-top: 15px">
+
+        <form action="example.com/Submit" method="post">
             <section>
-                <fieldset>
+                <fieldset style="margin-top: 5px; margin-bottom: 5px">
                     <legend>
+                        Personal Information
                     </legend>
+                    <div class="input paddingTopBottom5px">
+                        <div id="firstNameDiv" class="paddingTopBottom5px">
+                            <label for="firstName">First Name: </label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div id="lastNameDiv" class="paddingTopBottom5px">
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div id="dobDiv" class="paddingTopBottom5px">
+                            <label for="dob">First Name: </label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div id="genderDiv" class="paddingTopBottom5px">
+                            <label>Gender: </label>
+                            <input type="radio" id="genderMale" name="gender" value="male">
+                            <label for="genderMale">Male</label>
+                            <input type="radio" id="genderFemale" name="gender" value="female">
+                            <label for="genderFemale">Female</label>
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label for="other">Female</label>
+                        </div>
+                        <div id="emailDiv" class="paddingTopBottom5px">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div id="phoneDiv" class="paddingTopBottom5px">
+                            <label for="phone">Phone: </label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
                 </fieldset>
             </section>
+
+            <hr style="margin-top: 15px">
+
+            <section>
+                <fieldset style="margin-top: 5px; margin-bottom: 5px">
+                    <legend>
+                        Address Information
+                    </legend>
+                    <div class="input paddingTopBottom5px">
+                        <div id="addressDiv" class="paddingTopBottom5px">
+                            <label for="address">Address: </label><br>
+                            <textarea name="address" id="address" cols="60" rows="5" required></textarea>
+                        </div>
+                        <div id="cityDiv" class="paddingTopBottom5px">
+                            <label for="city">City: </label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div id="stateDiv" class="paddingTopBottom5px">
+                            <label for="state">State: </label>
+                            <input type="text" id="state" name="state" required>
+                        </div>
+                        <div id="pinCodeDiv" class="paddingTopBottom5px">
+                            <label for="pinCode">Zip Code: </label>
+                            <input type="number" id="pinCode" name="pinCode" maxlength="6" size="6" required>
+                        </div>
+                    </div>
+                </fieldset>
+            </section>
+
+            <hr style="margin-top: 15px">
+
+            <section>
+                <fieldset style="margin-top: 5px; margin-bottom: 5px">
+                    <legend>
+                        Educational Information
+                    </legend>
+                    <div class="input paddingTopBottom5px">
+                        <div id="highSchoolDiv" class="paddingTopBottom5px">
+                            <label for="highSchool">High School: </label>
+                            <input type="text" id="highSchool" name="highSchool" required>
+                        </div>
+                        <div id="gpaDiv" class="paddingTopBottom5px">
+                            <label for="gpa">GPA: </label>
+                            <input type="number" id="gpa" name="gpa" maxlength="2" size="2" required>
+                        </div>
+                        <div id="intendedMajorDiv" class="paddingTopBottom5px">
+                            <label for="intendedMajor">Intended Major: </label>
+                            <input type="text" id="intendedMajor" name="intendedMajor" required>
+                        </div>
+                        <div id="yogDiv" class="paddingTopBottom5px">
+                            <label for="yog">Year of Graduation: </label>
+                            <input type="number" id="yog" name="yog" maxlength="4" size="4" required>
+                        </div>
+                    </div>
+                </fieldset>
+            </section>
+
+            <hr style="margin-top: 15px">
+
+            <section>
+                <fieldset style="margin-top: 5px; margin-bottom: 5px">
+                    <legend>
+                        Additional Information
+                    </legend>
+                    <div class="input paddingTopBottom5px">
+                        <div id="hobbiesDiv" class="paddingTopBottom5px">
+                            <label for="hobbies">Interest and Hobbies: </label><br>
+                            <textarea name="hobbies" id="hobbies" cols="60" rows="5"></textarea>
+                        </div>
+                        <div id="additionalDiv" class="paddingTopBottom5px">
+                            <label for="additional">Additional Comments: </label><br>
+                            <textarea name="additional" id="additional" cols="60" rows="5"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+            </section>
+
+            <hr style="margin-top: 15px">
+                <input type="submit" value="Register">
+            <hr style="margin-top: 15px">
+
         </form>
     </main>
     <footer>
-
+        <p>© 2024 Student Registration. All rights reserved.</p>
     </footer>
 </body>
 </html>
